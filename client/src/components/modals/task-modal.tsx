@@ -13,6 +13,7 @@ import {
   DialogTitle,
   DialogFooter,
 } from "@/components/ui/dialog";
+import calender from "@/pages/calender";
 import {
   Form,
   FormControl,
@@ -56,7 +57,9 @@ const taskFormSchema = z.object({
   status: z.enum(["todo", "inProgress", "review", "done"]),
   dueDate: z.date().optional().nullable(),
   assigneeId: z.number().optional().nullable(),
+  initialDueDate: z.date().optional().nullable(), // added field
 });
+
 
 type TaskFormValues = z.infer<typeof taskFormSchema>;
 

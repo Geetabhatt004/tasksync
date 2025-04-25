@@ -85,7 +85,7 @@ export default function AuthPage() {
             <div className="bg-primary rounded-lg p-2 mr-3">
               <ClipboardList className="h-6 w-6 text-white" />
             </div>
-            <h1 className="text-2xl font-bold text-gray-900">TaskFlow</h1>
+            <h1 className="text-2xl font-bold text-gray-900">TaskSync</h1>
           </div>
           
           <Tabs value={activeTab} onValueChange={setActiveTab}>
@@ -155,7 +155,7 @@ export default function AuthPage() {
                 <CardHeader>
                   <CardTitle>Create an account</CardTitle>
                   <CardDescription>
-                    Sign up to start using TaskFlow
+                    Sign up to start using TaskSync
                   </CardDescription>
                 </CardHeader>
                 <CardContent>

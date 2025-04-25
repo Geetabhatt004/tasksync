@@ -10,6 +10,7 @@ import ProjectDetail from "@/pages/project-detail";
 import Projects from "@/pages/projects";
 import Tasks from "@/pages/tasks";
 import { ProtectedRoute } from "./lib/protected-route";
+import calender from '@/pages/calender';
 
 function Router() {
   return (
@@ -18,7 +19,8 @@ function Router() {
       <ProtectedRoute path="/projects" component={Projects} />
       <ProtectedRoute path="/projects/:id" component={ProjectDetail} />
       <ProtectedRoute path="/tasks" component={Tasks} />
-      <Route path="/auth" component={AuthPage} />
+      <ProtectedRoute path="/calender" component={calender}/>
+       <Route path="/auth" component={AuthPage} />
       <Route component={NotFound} />
     </Switch>
   );

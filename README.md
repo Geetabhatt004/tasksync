@@ -1,6 +1,6 @@
 The Product Management System (PMS) is a full-stack web application designed to streamline the management of products, tasks, and projects for businesses. It includes authentication, project/task management, and built-in automation to enhance productivity. The system allows teams to track product development, manage tasks efficiently, and automate repetitive processes.
 
-Key features:
+*Key features:
 
 User authentication and role management
 
@@ -12,7 +12,7 @@ Automation of common workflows (notifications, task assignments)
 
 API integrations for external services
 
-Features
+*Features:
 Authentication & Authorization: Secure login, registration, and role-based access.
 
 Product Management: Add, edit, and track products, with an option to categorize products.
